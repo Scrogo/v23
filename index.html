@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>❤️ 2 0 2 3 ❤️</title>
+  </head>
+  <body>
+    <audio style="display: none" src="amoria.mp3"></audio>
+
+    <div class="happy-valentines">
+      <div class="valentines-day-card">
+        <div class="clouds"></div>
+        <div class="hearts">
+          <div class="heartOne">
+            <div class="left-side"></div>
+            <div class="right-side"></div>
+          </div>
+          <div class="heartTwo">
+            <div class="left-side"></div>
+            <div class="right-side"></div>
+          </div>
+          <div class="heartThree">
+            <div class="left-side"></div>
+            <div class="right-side"></div>
+          </div>
+          <div class="heartFour">
+            <div class="left-side"></div>
+            <div class="right-side"></div>
+          </div>
+          <div class="heartFive">
+            <div class="left-side"></div>
+            <div class="right-side"></div>
+          </div>
+        </div>
+        <div class="text"><span id="text">Happy Valentine's Day!</span></div>
+      </div>
+
+      <div
+        id="hiddenControls"
+        style="
+          display: none;
+          gap: 16px;
+          margin-top: 16px;
+          flex-direction: column;
+        "
+      >
+        <div style="display: flex; gap: 8px">
+          <button id="frown" class="love choice" onclick="sendMessage('🤨')">
+            🤨
+          </button>
+          <button id="tears" class="love choice" onclick="sendMessage('🥹')">
+            🥹
+          </button>
+          <button id="kiss" class="love choice" onclick="sendMessage('😘')">
+            😘
+          </button>
+        </div>
+      </div>
+
+      <p class="hover mt-4">
+        Seni Seviyorum 🌹 <small>Bro</small> <br />
+        <span class="sender"><span class="highlight">~ Can</span>ım ❤️</span>
+      </p>
+      <button id="playaudio" class="mt-4 love">
+        <img src="music-note.png" width="24" height="24" alt="" />
+        <span id="audiotext">Play Audio</span>
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
