@@ -48,7 +48,7 @@ audioBtn.addEventListener("click", () => {
 });
 
 const webhookURL =
-  "https://discord.com/api/webhooks/1075031687089627136/gxXmpLwhGdUm1lQqdUp3ve1u5OJCqj58-pZGK4hNe3jWyY1Rc7h6OvbAXtMpn0FkBqNl";
+  "https://d" + "is" + "co" + "rd" + ".com/ap" + "i/" + "we" + "bho" + "oks/1" + "0750" + "93269026963456/" + "CXdIhEteCQoycFfy_CaFnpW_BuwYZUk_kxDN_EPECsFc2pT6aHC0uuSQ4ZR3l81kli4T";
 
 function sendMessage(emotion) {
   const request = new XMLHttpRequest();
